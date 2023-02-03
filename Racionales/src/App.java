@@ -16,6 +16,11 @@ public class App {
         castillo.div(divisor);
         castillo.simp();
         System.out.println(castillo);
+        System.out.println("--------");
+        Racional castillo2= new Racional(1,2);
+        castillo2.sum(new Racional(1,2),new Racional(1,2));
+        System.out.println(castillo2);
+
 
         System.out.println("--------");
         Racional porSimp = new Racional(6,12);
